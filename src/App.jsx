@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+      <Sponsors/>
       <Hero />
       <About/>
       <FAQ/>
