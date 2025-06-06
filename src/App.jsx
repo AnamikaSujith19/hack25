@@ -1,4 +1,4 @@
-import Sponsors from './Sponsors';
+import Sponsors from './Pages/Sponsors/Sponsors.jsx';
 import './App.css'
 import Hero from'./Pages/Hero/Hero';
 import About from './Pages/About/About'
