@@ -1,22 +1,22 @@
 import React from 'react';
 
 const sponsors = [
-  '/src/assets/sponsors/verbwire.png',
-  '/src/assets/sponsors/streamyard.png',
-  '/src/assets/sponsors/filecoin.png',
-  '/src/assets/sponsors/solana.png',
-  '/src/assets/sponsors/digitalocean.png',
-  '/src/assets/sponsors/polygon.png',
-    '/src/assets/sponsors/tezos.png',
-     '/src/assets/sponsors/replit.png',
-    '/src/assets/sponsors/innovation.png',
-       '/src/assets/sponsors/qburst.png',
-         '/src/assets/sponsors/experion.png',
-         '/src/assets/sponsors/devfolio.png',
-         '/src/assets/sponsors/keyvalue.png',
-         '/src/assets/sponsors/beingabroad.png',
-        '/src/assets/sponsors/acceleratex.png',
-       '/src/assets/sponsors/ieee.png',
+  '/src/assets/verbwire.png',
+  '/src/assets/streamyard.png',
+  '/src/assets/filecoin.png',
+  '/src/assets/solana.png',
+  '/src/assets/digitalocean.png',
+  '/src/assets/polygon.png',
+    '/src/assets/tezos.png',
+     '/src/assets/replit.png',
+    '/src/assets/innovation.png',
+       '/src/assets/qburst.png',
+         '/src/assets/experion.png',
+         '/src/assets/devfolio.png',
+         '/src/assets/keyvalue.png',
+         '/src/assets/beingabroad.png',
+        '/src/assets/acceleratex.png',
+       '/src/assets/ieee.png',
 ];
 
 const Sponsors = () => {
@@ -30,7 +30,7 @@ const Sponsors = () => {
         {sponsors.map((logo, index) => (
           <div
             key={index}
-            className="p-4 bg-gray-50 rounded-xl shadow hover:shadow-lg transition-all duration-300 flex justify-center items-center"
+            className="p-4 bg--50 rounded-xl shadow hover:shadow-lg transition-all duration-300 flex justify-center items-center"
           >
             <img
               src={logo}
